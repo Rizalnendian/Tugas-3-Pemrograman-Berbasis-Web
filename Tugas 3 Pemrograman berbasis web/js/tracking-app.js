@@ -30,7 +30,7 @@ new Vue({
     confirmCallback: null
   },
 
-  // IMPLEMENTASI FILTER
+ 
   filters: {
     formatRupiah(angka) {
       if (!angka && angka !== 0) return 'Rp 0';
