@@ -77,7 +77,7 @@
 
       <div
         class="nav-item"
-        :class="{ active: currentSection === 'histori' }"
+        :class="{ active: currentSection === 'histori' }"W
         @click="showSection('histori')"
       >
         <span class="nav-icon">🕐</span>
@@ -330,7 +330,7 @@
 
 <script src="js/data.js"></script>
 <script>
-// REGISTRASI VUE COMPONENT
+
 Vue.component('stat-card', {
   props: ['icon', 'value', 'label', 'colorTheme'],
   template: `
@@ -360,7 +360,7 @@ new Vue({
     confirmCallback: null
   },
   
-  // IMPLEMENTASI FILTER
+
   filters: {
     formatRupiah(angka) {
       if (!angka && angka !== 0) return 'Rp 0';
